@@ -12,7 +12,7 @@
     "server": "nodemon ./server/index.js",
     "client": "npm run start --prefix ./server/client",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i --prefix server/client && npm run build --prefix /server/client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i ./server/client && npm run build ./server/client"
   },
   "repository": {
     "type": "git",
