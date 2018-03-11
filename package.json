@@ -1,5 +1,5 @@
 {
-  "name": "FullstackReactCode",
+  "name": "Tone-iO",
   "version": "1.0.0",
   "description": "Companion repo to a course on Udemy.com. See here: https://www.udemy.com/node-with-react-fullstack-web-development",
   "main": "index.js",
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/ontoneio/FullstackReactCode/issues"
   },
-  "homepage": "https://github.com/ontoneio/FullstackReactCode#readme",
+  "homepage": "https://tone-mail.herokuapp.com/",
   "dependencies": {
     "body-parser": "^1.18.2",
     "concurrently": "^3.5.1",
