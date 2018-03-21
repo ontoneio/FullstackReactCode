@@ -12,6 +12,7 @@
     "react-scripts": "1.1.1",
     "react-stripe-checkout": "^2.6.3",
     "redux": "^3.7.2",
+    "redux-form": "^7.3.0",
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
@@ -20,7 +21,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage" : "https://tone-mail.herokuapp.com/",
+  "homepage": "https://tone-mail.herokuapp.com/",
   "proxy": {
     "/auth/*": {
       "target": "http://localhost:5000"
